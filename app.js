@@ -13,27 +13,28 @@ const quoteList = [
 ]
 
 const authorList = [
-    "Walt Disney",
-    "Mark Twain",
-    "Old Chinese Proverb",
-    "Babe Ruth",
-    "Michele Ruiz",
-    "Mary Kay Ash",
-    "Michael Jordan",
-    "Arianna Huffington",
-    "Eleanor Roosevelt"
+    " Walt Disney",
+    " Mark Twain",
+    " Old Chinese Proverb",
+    " Babe Ruth",
+    " Michele Ruiz",
+    " Mary Kay Ash",
+    " Michael Jordan",
+    " Arianna Huffington",
+    " Eleanor Roosevelt"
 ]
 
 const quoteBtn = document.querySelector('#new-quote');
 
-document.getElementById('text').innerHTML = quoteList[0];
-document.getElementById('author').innerHTML = authorList[0];
+var firstDisplay = Math.floor(Math.random()*quoteList.length)
+document.getElementById('text').innerHTML = quoteList[firstDisplay];
+document.getElementById('author').innerHTML = authorList[firstDisplay];
 
 
 quoteBtn.addEventListener('click',() => {
-    var j = Math.floor(Math.random()*quoteList.length)
-    document.getElementById('text').innerHTML = quoteList[j];
-    document.getElementById('author').innerHTML = authorList[j];
+    var random = Math.floor(Math.random()*quoteList.length)
+    document.getElementById('text').innerHTML = quoteList[random];
+    document.getElementById('author').innerHTML = authorList[random];
 })
 
 
