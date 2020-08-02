@@ -35,8 +35,8 @@ h1 {
   background-color: rgba(0, 0, 0, 0.4);
   margin: 20px;
   padding: 10px;
-  width: 740px;
-  height: 200px;
+  width: auto;
+  height: auto;
 }
 
 #quote-box .boxy #text {
@@ -47,8 +47,9 @@ h1 {
 #quote-box .boxy #author {
   font-size: 20px;
   font-family: bold;
-  margin: auto;
-  margin-top: 15px;
+  margin-left: auto;
+  margin-top: 35px;
+  text-align: right;
 }
 
 #quote-box button {
@@ -56,11 +57,29 @@ h1 {
   height: 30px;
   font-size: 15px;
   margin: auto;
+  padding: 0;
+}
+
+#quote-box button:hover {
+  background-color: black;
+  color: white;
+  border: none;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 
 #quote-box a {
   text-decoration: none;
   color: white;
   margin-top: 10px;
+  width: 50px;
+  margin: auto;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+#quote-box .image {
+  content: url(https://1000logos.net/wp-content/uploads/2017/06/Twitter-Logo.png);
+  width: 50px;
 }
 /*# sourceMappingURL=style.css.map */

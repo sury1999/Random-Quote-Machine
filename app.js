@@ -13,15 +13,15 @@ const quoteList = [
 ]
 
 const authorList = [
-    " Walt Disney",
-    " Mark Twain",
-    " Old Chinese Proverb",
-    " Babe Ruth",
-    " Michele Ruiz",
-    " Mary Kay Ash",
-    " Michael Jordan",
-    " Arianna Huffington",
-    " Eleanor Roosevelt"
+    "~ Walt Disney",
+    "~ Mark Twain",
+    "~ Old Chinese Proverb",
+    "~ Babe Ruth",
+    "~ Michele Ruiz",
+    "~ Mary Kay Ash",
+    "~ Michael Jordan",
+    "~ Arianna Huffington",
+    "~ Eleanor Roosevelt"
 ]
 
 const quoteBtn = document.querySelector('#new-quote');
